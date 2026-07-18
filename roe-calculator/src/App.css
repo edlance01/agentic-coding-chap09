@@ -5,6 +5,12 @@
   text-align: center;
 }
 
+.logo {
+  width: 56px;
+  height: 56px;
+  margin-bottom: 12px;
+}
+
 h1 {
   font-family: var(--sans);
   font-size: 32px;

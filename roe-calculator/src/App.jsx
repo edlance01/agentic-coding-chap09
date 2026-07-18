@@ -43,6 +43,20 @@ function App() {
 
   return (
     <div className="page">
+      <svg className="logo" viewBox="0 0 56 56" role="img" aria-label="Logo">
+        <circle cx="28" cy="28" r="28" fill="var(--accent)" />
+        <text
+          x="28"
+          y="38"
+          textAnchor="middle"
+          fontFamily="var(--sans)"
+          fontSize="30"
+          fontWeight="600"
+          fill="#faf9f5"
+        >
+          n
+        </text>
+      </svg>
       <h1>Shareholders&rsquo; Return on Equity</h1>
       <p className="subtitle">
         ROE measures how efficiently a company generates profit from
